@@ -2,7 +2,7 @@ local notify = {}
 
 --你的wifi名称和密码,仅2.4G
 local wifis = {}
-table.insert(wifis, {name = "", password = ""})
+table.insert(wifis, {name = "DLINK_3-504_IoT", password = "chinavnet"})
 -- 多个 wifi 继续使用 table.insert 添加，会逐个尝试
 
 --短信接收指令的标记（密码）
@@ -24,7 +24,7 @@ local useServer = "luatos"
 --LuatOS社区提供的推送服务 https://push.luatos.org/ ，用不到可留空
 --这里填.send前的字符串就好了
 --如：https://push.luatos.org/ABCDEF1234567890ABCD.send/{title}/{data} 填入 ABCDEF1234567890ABCD
-local luatosPush = "ABCDEF1234567890ABCD"
+local luatosPush = "1054270B6FDE4DD6A3F2523643060A21"
 --默认的接口网址，推荐优先使用（由于服务器在国外某些地方可能连不上，如果连不上就换另一个）
 local luatosPushApi = "https://push.luatos.org/"
 --备用的接口网址，从国内中转（有严格的QPS限制，请求频率过高会被屏蔽）
